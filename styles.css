@@ -41,6 +41,7 @@ body {
 .nav-icon  i{
     display: inline;
     color: rgba(176,178,177,1);
+    padding: 1.5rem;
     /* width: 60vw;
     border-top: 3px solid rgba(80,85,90,1);
     border-bottom: 3px solid rgba(80,85,90,1); */
