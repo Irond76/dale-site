@@ -11,6 +11,7 @@ body {
 .container {
     /* border: 1px solid red; */
     display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     height: 90vh;
     align-content: center;
@@ -19,9 +20,11 @@ body {
 
 
 
+
 .header-image {
     width: 60vw;
     box-shadow: 3px 3px 15px rgba(0,0,0,.8);
+    
 }
 
 .nav-bar-container {
@@ -31,28 +34,44 @@ body {
     border-top: 3px solid rgba(80,85,90,1);
     border-bottom: 3px solid rgba(80,85,90,1);
     margin: auto;
+    /* border: 1px solid green; */
+    
+    
 }
 
     
 .nav-center {
     justify-self: center;
-    
+    /* border: 1px solid yellow; */
 }
     
 .nav-icon  i{
-    display: inline;
+    display: inline-block;
     color: rgba(176,178,177,1);
     padding: 1.5rem;
     font-size: 1.5rem;
     
-
+    /* border: 1px solid red; */
 }   
+    
+    
+
 
 i:hover {
     color: rgb(56, 110, 129);
     transition: all .3s ease-in-out;
+    cursor: pointer;
     
 }
+
+#html-card {
+    display: block;
+    background: white;
+}
+
+
+
+
 
 
     
