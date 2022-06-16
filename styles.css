@@ -44,7 +44,7 @@ body {
     .nav-icon {
         margin: auto;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 }   
 @media screen and (min-width:550px){
@@ -52,6 +52,7 @@ body {
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
 }   
 @media screen and (min-width:750px){
@@ -60,7 +61,8 @@ body {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
     }
-}   
+}  
+ 
 i:hover {
     color: rgb(56, 110, 129);
     transition: all .3s ease-in-out;
