@@ -246,10 +246,82 @@ i:hover {
 
 .about-section-title h1 {
     color: rgba(176,178,177,1) ;
-}    
-    
+}
 
-    
+.close-container{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 17.2rem;
+    height: 3rem;
+    text-align: end;
+    align-items: center;
+    transition: all 0.3s linear;
+   
+}
+
+
+.close-btn-html {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+
+.close-btn-html:hover {
+    color: rgba(80,85,90,1);
+}
+.close-btn-javascript {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+
+.close-btn-javascript:hover {
+    color: rgba(80,85,90,1);
+}
+.close-btn-bootstrap {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+
+.close-btn-bootstrap:hover {
+    color: rgba(80,85,90,1);
+}
+.close-btn-python {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+.close-btn-python:hover {
+    color: rgba(80,85,90,1);
+}
+.close-btn-sql {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+.close-btn-sql:hover {
+    color: rgba(80,85,90,1);
+}
+.close-btn-react {
+    font-size: 2.5rem;
+    color: rgba(176,178,177,1) ;
+    transition: all 0.3s linear;
+}
+   
+.close-btn-react:hover {
+    color: rgba(80,85,90,1);
+}
+
+
+
+
 
 
     

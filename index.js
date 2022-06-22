@@ -24,6 +24,18 @@ const sqlModal = document.querySelector('.sql-modal');
 const reactIcon = document.getElementById('react-icon');
 // GET REACT CERTIFICATE
 const reactModal = document.querySelector('.react-modal');
+// SELECT CLOSE-CONTAINER HTML
+const closeButtonHtml = document.querySelector('.close-btn-html');
+// SELECT CLOSE-BTN-JAVASCRIPT
+const closeButtonJavascript = document.querySelector('.close-btn-javascript');
+// SELECT CLOSE-BTN-BOOTSTRAP
+const closeButtonBootstrap = document.querySelector('.close-btn-bootstrap');
+// SELECT CLOSE-BTN-PYTHON
+const closeButtonPython = document.querySelector('.close-btn-python');
+// SELECT CLOSE-BTN-SQL
+const closeButtonSql = document.querySelector('.close-btn-sql');
+// SELECT CLOSE-BTN-REACT
+const closeButtonReact = document.querySelector('.close-btn-react');
 
 // ADD EVENT LISTENER TO HTML ICON
 htmlIcon.addEventListener('click', () => {
@@ -91,6 +103,55 @@ reactIcon.addEventListener('click', () => {
         header.style.display = 'grid'
     }
 });
+// ADD EVENT LISTENER TO CLOSE-BTN HTML
+closeButtonHtml.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (htmlModal.style.display != "none"){
+        htmlModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+// ADD EVENT LISTENER TO CLOSE-BTN-JAVASCRIPT
+closeButtonJavascript.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (javaScriptModal.style.display != "none"){
+        javaScriptModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+// ADD EVENT LISTENER TO CLOSE-BTN-BOOTSTRAP
+closeButtonBootstrap.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (bootStrapModal.style.display != "none"){
+        bootStrapModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+// ADD EVENT LISTENER TO CLOSE-BTN-PYTHON
+closeButtonPython.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (pythonModal.style.display != "none"){
+        pythonModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+// ADD EVENT LISTENER TO CLOSE-BTN-SQL
+closeButtonSql.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (sqlModal.style.display != "none"){
+        sqlModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+// ADD EVENT LISTENER TO CLOSE-BTN-SQL
+closeButtonReact.addEventListener('click', () => {
+    console.log('close-btn clicked');
+    if (reactModal.style.display != "none"){
+        reactModal.style.display = "none"
+        header.style.display = 'grid'
+    }
+});
+
        
     
         
