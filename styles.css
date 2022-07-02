@@ -329,7 +329,7 @@ i:hover {
     /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 1fr;
-    width:60vw ;
+    width:40vw ;
     height: 10vh;
     justify-items: center;
     
