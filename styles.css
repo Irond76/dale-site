@@ -180,7 +180,7 @@ i:hover {
 .nav-two {
     /* border: 2px solid yellow; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width:60vw;
     justify-items: center;
     
@@ -196,15 +196,17 @@ i:hover {
 
 .nav-two a{
     text-align: center;
+    
     margin-top: 1.5rem;
+    margin: 1.5rem .2rem;
     text-decoration: none;
-    font-size: 1.2rem;
-    letter-spacing: 1.1rem;
+    font-size: 1.0rem;
+    letter-spacing: .4rem;
     color:rgba(176,178,177,1) ;
     text-shadow: 1.5px 1.5px rgb(0,0,0) ;
-    border: 1px solid rgba(80,85,90,1);
+    border: 1.5px solid rgba(80,85,90,1);
     border-radius: 0.5rem;
-    padding: 2px;
+    padding: .75px;
     transition: all 0.3s linear ;
 }
 .nav-two a:hover {
