@@ -369,6 +369,32 @@ i:hover {
     overflow: auto;
 }
 
+.bold{
+    font-weight: bolder;
+}
+
+.home{
+    display: grid;
+    width: 125px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(176,178,177,1);
+    /* background-color: rgba(176,178,177,1); */
+    border: 1px solid rgba(176,178,177,1);
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 0.5rem;
+    transition: all 0.3s linear;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.8);
+}
+.home:hover {
+    background:rgba(80,85,90,1);
+    color:rgba(176,178,177,1);
+    transition: all 0.3s linear;
+}
+    
+
 
 
 
