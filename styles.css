@@ -12,6 +12,8 @@
     --mainLetterSpacing: 0.1rem;
     --mainLineHeight: 2.0em;
     --mainTransition: all 0.3s ease-in-out;
+    --mainBoxShadow: 3px 3px 5px rgba(0,0,0,0.8);
+    --mainBorderRadius: 1rem;
 }
 
 body {
@@ -29,17 +31,42 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    justify-items: center;
 }
     
+    
 
-.hero {
+.main-image {
     background-image: url('./assets/portfolio-header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
-    height: 60%;
+    background-position: center;
+    width: 60vw;
+    height: 80vh;
     margin: 0 auto;
+    box-shadow: var(--mainBoxShadow);
+    border-radius: var(--mainBorderRadius);
 }
+
+.nav {
+    background: var(--mainGreyColor);
+    display: flex;
+    width: 60vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: var(--mainBorderRadius);
+}  
+
+nav i{
+    font-size: 5rem;
+    color: var(--mainTextColor);
+    box-shadow: var(--mainBoxShadow);
+}
+
+    
+    
+   
     
 
 
