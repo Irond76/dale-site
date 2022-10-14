@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GLOBAL VARIABLES */
+:root {
+    --mainBodyColor: #191919;
+    --mainTextColor: #c0c0c0;
+    --mainGreyColor: #505559;
+    --mainLetterSpacing: 0.1rem;
+    --mainLineHeight: 2.0em;
+    --mainTransition: all 0.3s ease-in-out;
+}
+
+body {
+    background: var(--mainBodyColor);
+    color: var(--mainTextColor);
+    letter-spacing: var(--mainLetterSpacing);
+    line-height: var(--mainLineHeight);
+}
+
+
