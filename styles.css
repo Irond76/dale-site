@@ -21,4 +21,25 @@ body {
     line-height: var(--mainLineHeight);
 }
 
+/* MAIN SECTION STYLES */
+main {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+    
+
+.hero {
+    background-image: url('./assets/portfolio-header-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+    
+
 
