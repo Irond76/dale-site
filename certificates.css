@@ -1,0 +1,26 @@
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================== GLOBAL VARIABLES ==========================================*/
+:root {
+    --mainBodyColor: #191919;
+    --mainTextColor: #c0c0c0;
+    --mainGreyColor: #505559;
+    --mainLetterSpacing: 0.1rem;
+    --mainLineHeight: 2.0em;
+    --mainTransition: all 0.3s ease-in-out;
+    --mainBoxShadow: 3px 3px 5px rgba(0,0,0,0.8);
+    --mainBorderRadius: 1rem;
+}
+/*  ==================== GLOBAL BODY STYLES  =====================================*/
+body {
+    background: var(--mainBodyColor);
+    color: var(--mainTextColor);
+    letter-spacing: var(--mainLetterSpacing);
+    line-height: var(--mainLineHeight);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
