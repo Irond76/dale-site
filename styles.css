@@ -68,6 +68,18 @@ img {
     border-radius: 0.2rem;
 }
 
+i {
+    box-shadow: var(--mainBoxShadow);
+    color: var(--mainTextColor);
+}
+
+.fa-brands {
+    text-shadow: var(--mainBoxShadow);
+}
+.fa-solid {
+    text-shadow: var(--mainBoxShadow);
+}
+
 
     
 
