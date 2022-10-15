@@ -61,6 +61,97 @@ img:hover{
     transform: scale(1.03);
 }
 
+/* ====== MOBILE DESIGN IMAGE==================================== */
+
+@media screen and (max-width: 767px) {
+    img {
+        display: block;
+        width: 90vw;
+        /* height: 50vh; */
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+        margin: 0 0 1rem 0;
+        outline-style: solid;
+        outline-color: #c0c0c0;
+        outline-width: thin;
+    }
+}
+/* ========= TABLET DESIGN IMAGE ================================================== */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    img {
+        display: block;
+        width: 90vw;
+        /* height: 50vh; */
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+        margin: 0 0 1rem 0;
+        outline-style: solid;
+        outline-color: #c0c0c0;
+        outline-width: thin;
+    }
+}
+
+/* ========= DESKTOP DESIGN IMAGE ================================================== */
+
+@media screen and (min-width: 1024px){
+    img {
+        display: block;
+        width: 70vw;
+        /* height: 50vh; */
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+        margin: 0 0 1rem 0;
+        outline-style: solid;
+        outline-color: #c0c0c0;
+        outline-width: thin;
+    }
+}
+
+/* ====== MOBILE DESIGN MAIN ==================================== */
+@media screen and (max-width: 767px) {
+    main {
+        /* border: 1px solid blue; */
+        width: 90vw;
+        height: 100vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+/* ========= TABLET DESIGN MAIN ================================================== */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    main {
+        /* border: 1px solid blue; */
+        width: 90vw;
+        height: 100vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+/* ========= DESKTOP DESIGN MAIN ================================================== */
+
+@media screen and (min-width: 1024px) {
+    main {
+        /* border: 1px solid blue; */
+        width: 70vw;
+        height: 100vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+
+
+
 /* ========== NAV BAR STYLES =============================================== */
 
 .nav {
@@ -76,6 +167,62 @@ img:hover{
     box-shadow: var(--mainBoxShadow);
     border-radius: 0.2rem;
 }
+/* ====== MOBILE DESIGN NAV ==================================== */
+
+@media screen and (max-width: 767px){
+    .nav {
+        outline-color: var(--mainTextColor);
+        outline-style: double ;
+        display: flex;
+        width: 90vw;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1rem;
+        background: var(--mainGreyColor);
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+    }
+}
+
+/* ========= TABLET DESIGN NAV ================================================== */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .nav {
+        outline-color: var(--mainTextColor);
+        outline-style: double ;
+        display: flex;
+        width: 90vw;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        background: var(--mainGreyColor);
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+    }
+}
+/* ========= DESKTOP DESIGN NAV ================================================== */
+
+
+@media screen and (min-width: 1024px){
+    .nav {
+        outline-color: var(--mainTextColor);
+        outline-style: double ;
+        display: flex;
+        width: 70vw;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3rem;
+        background: var(--mainGreyColor);
+        box-shadow: var(--mainBoxShadow);
+        border-radius: 0.2rem;
+    }
+}
+
+
+
 
 .nav:hover{
     transition: var(--mainTransition);
