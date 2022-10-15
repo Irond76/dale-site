@@ -92,8 +92,21 @@ i {
 .fa-brands {
     text-shadow: var(--mainBoxShadow);
 }
+
+.fa-brands:hover{
+    transition: var(--mainTransition);
+    transform: scale(1.05);
+    color: #f5f5f5;
+}
+
 .fa-solid {
     text-shadow: var(--mainBoxShadow);
+}
+
+.fa-solid:hover{
+    transition: var(--mainTransition);
+    transform: scale(1.05);
+    color: #f5f5f5;
 }
 
 
