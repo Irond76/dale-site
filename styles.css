@@ -43,7 +43,6 @@ main {
 .main-image {
    /* border: 1px solid blue; */
   box-shadow: 2px 2px 20px rgba(78, 78, 78, 0.8);
-
 }
 img {
     display: block;
@@ -67,7 +66,6 @@ img:hover{
     img {
         display: block;
         width: 90vw;
-        /* height: 50vh; */
         box-shadow: var(--mainBoxShadow);
         border-radius: 0.2rem;
         margin: 0 0 1rem 0;
@@ -157,7 +155,6 @@ img:hover{
 .nav {
     outline-color: var(--mainTextColor);
     outline-style: double ;
-    display: flex;
     width: 60vw;
     height: 5rem;
     align-items: center;
@@ -256,10 +253,71 @@ i {
     color: #f5f5f5;
 }
 
+.one a{
+    color: white;
+}
+
+.main-image-links {
+    display: grid;
+    margin: 0 auto;
+    width: 80vw;
+    height: 30vh;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+    background: var(--mainGreyColor);
+    border-radius: 2rem;
+} 
+
+.main-image-links a {
+    color: var(--mainTextColor);
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+
+.counter i{
+ margin: 0 1rem;
+}
+.grid i{
+ margin: 0 1rem;
+}
+.react i{
+ margin: 0 1rem;
+}
+
+.text{
+    font-size: .75rem;
+}
 
 
-    
-
+@media screen and (min-width: 767px) {
+    .main-image-links {
+        width: 70vw;
+        height: 60vh;
+        font-size: 2rem;
+    }
+    .counter i{
+        margin: 0 3rem;
+        font-size: 3rem;
+        padding: .5rem;
+       }
+    .grid i{
+        margin: 0 3rem;
+        font-size: 3rem;
+        padding: .5rem;
+    }
+    .react i{
+        margin: 0 3rem;
+        font-size: 3rem;
+        padding: .5rem;
+    }
+    .text{
+        font-size: 1.25rem;
+        display: block;
+        justify-self: center;
+        padding-left: 10rem;
+    }
+}
 
     
     
