@@ -261,7 +261,7 @@ i {
     display: grid;
     margin: 0 auto;
     width: 80vw;
-    height: 30vh;
+    height: 60vh;
     grid-template-columns: 1fr;
     justify-items: center;
     align-content: center;
